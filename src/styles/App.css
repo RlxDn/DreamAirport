@@ -1,4 +1,19 @@
-#world {
+body {
   width: 100%;
   height: 100%;
+}
+#cover {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(white 1%, skyblue);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#title {
+  font-size: 90px;
+  margin-bottom: 300px;
 }

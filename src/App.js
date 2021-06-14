@@ -1,12 +1,17 @@
-import React from 'react';
 import './styles/App.css';
-import {ReactComponent as World} from './images/world.svg';
 
 const App = () => {
   return (
-    <div id="world">
-      <World />
-    </div>
+    <body>
+      <div id="cover">
+        <div id="title">
+          DreamAirport
+        </div>
+      </div>
+      <div>
+        Dreams on whole World
+      </div>
+    </body>
   );
 }
 
